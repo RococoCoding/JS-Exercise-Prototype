@@ -135,10 +135,10 @@ console.log(daddy);
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. in global scope 'this' is bound to the window (unless in strict mode)
+  2. when preceding a function call with a dot, the object before the dot is bound to 'this'
+  3. when used in a constructor function, the 'this' is bound to each 'new' object created
+  4. .call/.apply/.bind create new bindings for 'this' that can override existing ones
 */
 
 ///////// END OF CHALLENGE /////////
